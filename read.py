@@ -6,7 +6,7 @@
  
  
 num = 0
-tot = 0.0
+total = 0.0
 while True:
     number = input("Enter a number(enter the word done to terminate):  ")
     if number == 'done':
@@ -17,6 +17,6 @@ while True:
         print('Invaid Input')
         continue
     num = num+1
-    tot = tot + num1
+    total = total + num1
 print ('done encountered, terminated by user')
-print (tot,num,tot/num)
+print (total,num,total/num)
